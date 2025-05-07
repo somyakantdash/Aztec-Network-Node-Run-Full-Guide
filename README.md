@@ -3,6 +3,12 @@
 ## Introduction
 Aztec is building a decentralized, privacy-focused network and the sequencer node is a key part of it. Running a sequencer helps produce and propose blocks using regular consumer hardware. A privacy-focused Layer 2 (L2) scaling solution on the Ethereum blockchain. Aztec aims to enhance privacy and scalability for Ethereum transactions using zero-knowledge (ZK) rollups, enabling private smart contract execution and confidential transactions. Their mission is to make privacy a standard feature for decentralized applications (dApps), addressing what they see as a critical gap in blockchain security and user protection.
 
+In the Aztec network, three types of nodes can be run: Full Node, Sequencer Node, and Prover Node. Currently, only the Sequencer Node can be run on the Aztec Testnet. If you wish to run a different type of node, please refer to the official documentation linked below.
+
+- Full Node: [Check Out](https://docs.aztec.network/next/the_aztec_network/guides/run_nodes/how_to_run_full_node)  
+- Sequencer Node: [Check Out](https://docs.aztec.network/next/the_aztec_network/guides/run_nodes/how_to_run_sequencer) 
+- Prover Node: [Check Out](https://docs.aztec.network/next/the_aztec_network/guides/run_nodes/how_to_run_prover)
+
 ## Key Features
 - Privacy: Confidential transactions and smart contracts via zero-knowledge proofs.
 - Scalability: ZK-rollups reduce gas fees and boost throughput.
