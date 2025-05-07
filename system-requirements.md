@@ -2,10 +2,6 @@
 
 ## Overview
 
-- 4GB RAM and 2 Cores
-- 20GB free disk space
-- Internet connectivity available 24/7
-
 | Component      | Specification                      |
 |----------------|------------------------------------|
 | CPU            | 8 core Processor                   |
