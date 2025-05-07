@@ -168,7 +168,7 @@ http://localhost:8080 | jq -r ".result"
 
 https://github.com/user-attachments/assets/7359be63-62bb-4951-8624-7175bd2a2bf0
 
-  * Visit the [Discord channel](https://discord.com/channels/1144692727120937080/1367196595866828982)
+  * Visit the [Discord channel](https://discord.com/invite/aztec)
   * Follow the Video guide
   * Start the `Operator` with the `/operator start` then select follow the video guide
 
@@ -211,7 +211,7 @@ Replace the following variables before you Run Node:
 rm -r /root/.aztec
 ```
 
-## Need to Free Your 8003 Port
+## Need to Free Your 8080 Port
 
 ### Identify the Process Using Port 8080
 ```
