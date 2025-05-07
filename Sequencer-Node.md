@@ -54,7 +54,7 @@ aztec-up alpha-testnet
 
 ### Sepolia RPC URL (I use Alchemy)
 * We need to create a Sepolia Alchemy RPC  --- Visit [here](https://dashboard.alchemy.com/)
-* Loigin/Sign Up
+* Login/Sign Up
 * Click on `Create New app`
 ![Screenshot 2025-05-07 112101](https://github.com/user-attachments/assets/985af9c3-35cb-4eb9-afba-b32f6b886315)
 
@@ -188,7 +188,7 @@ Replace `SEPOLIA-RPC-URL` , `YOUR-PRIVATE-KEY` , `YOUR-VALIDATOR-ADDRESS` with a
 
 ## 🔶For Next Day Run This Command (Windows)
 
-#1 Open WSL & Docker and Put this Command 
+#1 Open WSL and Put this Command 
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
