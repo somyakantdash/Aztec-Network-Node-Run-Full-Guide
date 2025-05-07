@@ -210,3 +210,24 @@ Replace the following variables before you Run Node:
 ```
 rm -r /root/.aztec
 ```
+
+## Need to Free Your 8003 Port
+
+### Identify the Process Using Port 8080
+```
+sudo ss -tulpn | grep 8080
+```
+
+Example - ``` LISTEN  0  128  0.0.0.0:0380  0.0.0.0:*  users:(("nginx",pid=1234,fd=6)) ```
+
+### Terminate the Process by PID
+```
+sudo kill -9 1234
+```
+
+### Kill All Processes Using Port 8080
+```
+sudo fuser -k 8080/tcp
+```
+
+Reference Video How to Free 8080 or any port - https://youtu.be/4iP4GvLfCrU?t=229
