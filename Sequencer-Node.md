@@ -77,6 +77,7 @@ It's Paid RPC (rare chance u get any errors)
 🍀DRPC: https://drpc.org?ref=96acbf
 
 👉Create new account by using Gmail > Click "Add Key" > Search Beacon & Copy ur ETH Sepolia Beacon RPC (It's Free)
+
 👉U can Upgrage ur account by paying some $ to get more requests ($6 / ~1M requests)
 
 ![Screenshot 2025-05-11 144148](https://github.com/user-attachments/assets/8b72ed61-e786-4804-b827-716bec6d54e9)
@@ -85,6 +86,7 @@ It's Paid RPC (rare chance u get any errors)
 🍀Ankr: https://www.ankr.com/rpc/?utm_referral=rTKuee6mUf
 
 👉Create new account by using Gmail or Github > Click "API Credits" & Buy Some Credits (check below ss)
+
 👉Click "Default Project" or Create New Project > Then Search ETH Testnet Sepolia Beacon RPC (It's Paid $10 / ~500k req)
 
 ![sdgsdg](https://github.com/user-attachments/assets/5cb99571-3ec5-4dc4-b599-45e3961699a4)
