@@ -66,9 +66,34 @@ aztec-up alpha-testnet
 -----
 ### Beacon RPC/L1 Consensus   
 
+It's Free RPC (u get errors after some time)
+
 * Use:   `https://rpc.drpc.org/eth/sepolia/beacon`
  OR
 * Use:    `https://lodestar-sepolia.chainsafe.io`
+
+It's Paid RPC (rare chance u get any errors)
+
+🍀DRPC: https://drpc.org?ref=96acbf
+
+👉Create new account by using Gmail > Click "Add Key" > Search Beacon & Copy ur ETH Sepolia Beacon RPC (It's Free)
+👉U can Upgrage ur account by paying some $ to get more requests ($6 / ~1M requests)
+
+![Screenshot 2025-05-11 144148](https://github.com/user-attachments/assets/8b72ed61-e786-4804-b827-716bec6d54e9)
+![Screenshot 2025-05-11 144130](https://github.com/user-attachments/assets/176506c6-662c-40e3-9832-a275e98ad302)
+
+🍀Ankr: https://www.ankr.com/rpc/?utm_referral=rTKuee6mUf
+
+👉Create new account by using Gmail or Github > Click "API Credits" & Buy Some Credits (check below ss)
+👉Click "Default Project" or Create New Project > Then Search ETH Testnet Sepolia Beacon RPC (It's Paid $10 / ~500k req)
+
+![sdgsdg](https://github.com/user-attachments/assets/5cb99571-3ec5-4dc4-b599-45e3961699a4)
+![dfgdg](https://github.com/user-attachments/assets/fe56d45e-f37e-4fd2-a6e5-0f5cea4a42d0)
+
+![dgd](https://github.com/user-attachments/assets/f21791c8-a877-4b18-b363-e036d9cc2375)
+![fghfg](https://github.com/user-attachments/assets/d8f3b8b8-bcd3-4fa1-9961-2c4cf7fcd86b)
+
+
 
 5️⃣ Check IP (for Local PC)
 ```
@@ -231,3 +256,38 @@ sudo fuser -k 8080/tcp
 ```
 
 Reference Video How to Free 8080 or any port - https://youtu.be/4iP4GvLfCrU?t=229
+
+
+## If U Getting This Error
+
+![6127552180060801396](https://github.com/user-attachments/assets/43c20d1f-197f-4000-9c8b-ec593ea59cb6)
+
+Press CTRL + C to stop Node
+
+Delete Database
+```
+rm -rf ~/.aztec/alpha-testnet/data/ 
+```
+
+Update NODE
+```
+aztec-up alpha-testnet
+```
+
+Restsrt Your Node (using beacon paid rpc only to solve this issue)
+```
+aztec start --node --archiver --sequencer \
+  --network alpha-testnet \
+  --l1-rpc-urls RPC_URL  \
+  --l1-consensus-host-urls BEACON_URL \
+  --sequencer.validatorPrivateKey YourPrivateKey \
+  --sequencer.coinbase YourevmAddress \
+  --p2p.p2pIp IP
+  --p2p.maxTxPoolSize 1000000000
+```
+
+Replace the following variables before you Run Node:
+* `RPC_URL` & `BEACON_URL`: Step 4
+* `YourPrivateKey`: Your EVM wallet private key (with 0x prefix)
+* `YourAddress`: Your EVM wallet public address
+* `IP`: Your server IP (Step 5)
