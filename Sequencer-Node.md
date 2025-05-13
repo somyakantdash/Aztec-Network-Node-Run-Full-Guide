@@ -56,19 +56,19 @@ aztec-up alpha-testnet
 
 It's Free RPC (u get errors after some time)
 
-* We need to create a Sepolia Alchemy RPC  --- Visit [here](https://dashboard.alchemy.com/)
-* Login/Sign Up
-* Click on `Create New app`
-![Screenshot 2025-05-07 112101](https://github.com/user-attachments/assets/985af9c3-35cb-4eb9-afba-b32f6b886315)
+### 🍀Alchemy: https://dashboard.alchemy.com/
 
-* Give a name, Select Ethereum and `Create App`
-* Click on `Network` tab and select Sepolia
+👉Login/Sign Up
+
+👉Click on `Create New app` > Give a name, Select Ethereum and `Create App` > Click on `Network` tab and select Sepolia > Copy the RPC, will be needed soon
+
+![Screenshot 2025-05-07 112101](https://github.com/user-attachments/assets/985af9c3-35cb-4eb9-afba-b32f6b886315)
 ![image](https://github.com/user-attachments/assets/c2eee62c-ec39-450c-aed8-e2a2eb5deee0)
-* Copy the RPC, will be needed soon
+
 
 It's Paid RPC (rare chance u get any errors)
 
-🍀NodeReal: https://nodereal.io/invite/ff92db1c-3f19-4df7-8c32-4d87a3030583
+### 🍀NodeReal: https://nodereal.io/invite/ff92db1c-3f19-4df7-8c32-4d87a3030583
 
 👉Create Account with Discord Or Github > Create New API Key > Click On That Key > Click Ethereum RPC Endpoint > Use Sepolia Https RPC Key
 
