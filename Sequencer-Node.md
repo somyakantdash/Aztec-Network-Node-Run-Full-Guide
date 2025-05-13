@@ -53,6 +53,9 @@ aztec-up alpha-testnet
 4️⃣ Obtain RPC URLs
 
 ### Sepolia RPC URL (I use Alchemy)
+
+It's Free RPC (u get errors after some time)
+
 * We need to create a Sepolia Alchemy RPC  --- Visit [here](https://dashboard.alchemy.com/)
 * Login/Sign Up
 * Click on `Create New app`
@@ -62,6 +65,16 @@ aztec-up alpha-testnet
 * Click on `Network` tab and select Sepolia
 ![image](https://github.com/user-attachments/assets/c2eee62c-ec39-450c-aed8-e2a2eb5deee0)
 * Copy the RPC, will be needed soon
+
+It's Paid RPC (rare chance u get any errors)
+
+🍀NodeReal: https://nodereal.io/invite/ff92db1c-3f19-4df7-8c32-4d87a3030583
+
+👉Create Account with Discord Or Github > Create New API Key > Click On That Key > Click Ethereum RPC Endpoint > Use Sepolia Https RPC Key
+
+![Screenshot 2025-05-13 183626](https://github.com/user-attachments/assets/24e00e4e-5a9b-4cf4-ad53-b171916addfd)
+![Screenshot 2025-05-13 183643](https://github.com/user-attachments/assets/8a43f82c-9b83-4e2e-b36f-4155e88a15b2)
+![Screenshot 2025-05-13 183658](https://github.com/user-attachments/assets/aa78d4fe-f595-4483-80e2-3b097cfebd97)
 
 -----
 ### Beacon RPC/L1 Consensus   
