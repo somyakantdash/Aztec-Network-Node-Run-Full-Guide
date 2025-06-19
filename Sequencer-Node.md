@@ -289,7 +289,7 @@ Update NODE
 aztec-up alpha-testnet
 ```
 
-Restsrt Your Node (using beacon paid rpc only to solve this issue)
+Restart Your Node (using beacon paid rpc only to solve this issue)
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
@@ -340,3 +340,40 @@ sudo ufw status verbose
 ```
 
 ### Now start Node again by Start Node Command
+
+
+## Upgrade to v0.87.9 🧃
+
+Move to Aztec Screen (If u Run Node in VPS
+
+```
+screen -r aztecSequencer
+```
+
+Stop your node if already running
+```
+ctrl+c
+```
+
+Upgrade Your Node
+```
+aztec-up latest
+```
+
+Start your node with `Start` command (using beacon paid rpc only to solve this issue)
+```
+aztec start --node --archiver --sequencer \
+  --network alpha-testnet \
+  --l1-rpc-urls RPC_URL  \
+  --l1-consensus-host-urls BEACON_URL \
+  --sequencer.validatorPrivateKey YourPrivateKey \
+  --sequencer.coinbase YourevmAddress \
+  --p2p.p2pIp IP
+  --p2p.maxTxPoolSize 1000000000
+```
+
+Replace the following variables before you Run Node:
+* `RPC_URL` & `BEACON_URL`: Step 4
+* `YourPrivateKey`: Your EVM wallet private key (with 0x prefix)
+* `YourAddress`: Your EVM wallet public address
+* `IP`: Your server IP (Step 5)
